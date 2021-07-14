@@ -10,7 +10,7 @@ enddate: 2021-07-22        # machine-readable end date for the workshop in YYYY-
 instructor: ["Maneesha Sane", "Mark Laufersweiler" ] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: []     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: ["maneesha@carpentries.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-etherpad:             # optional: URL for the workshop Etherpad if there is one
+etherpad:   https://docs.google.com/document/d/19MJOJhFwdhKE72IkKQ7eX7coupi98WSoVsq7q7siMss/edit          # optional: URL for the workshop Etherpad if there is one
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 locations:
   - venue: "Online"
@@ -282,7 +282,7 @@ for more information.
 <p id="etherpad">
   <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
   <br/>
-  We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
+  We will use this document for chatting, taking notes, and sharing URLs and other information.
 </p>
 
 {% endif %}
